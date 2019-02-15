@@ -47,15 +47,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Collections/SetsAndHashSets/Sets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Collections/Maps/Location.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,6 +55,48 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Arrays_and_Java_Built_in_Lists/LinkedLists/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1357">
+              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Collections/SetsAndHashSets/Sets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2139">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Collections/SetsAndHashSets/CelestialBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21436">
+              <caret line="994" column="6" selection-start-line="994" selection-start-column="6" selection-end-line="994" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -80,11 +113,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>,tempExit));</find>
+      <find>HeavenlyBody</find>
     </findStrings>
     <replaceStrings>
       <replace>tempExits.put</replace>
       <replace>,tempExit();</replace>
       <replace>,tempExits));</replace>
+      <replace>CelestialBody</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -107,11 +142,13 @@
         <option value="$PROJECT_DIR$/src/com/company/Collections/Maps/map.java" />
         <option value="$PROJECT_DIR$/src/com/company/Collections/Maps/AdventureGame.java" />
         <option value="$PROJECT_DIR$/src/com/company/Collections/Maps/Location.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Collections/SetsAndHashSets/HeavenlyBody.java" />
         <option value="$PROJECT_DIR$/src/com/company/Collections/SetsAndHashSets/Sets.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Collections/SetsAndHashSets/CelestialBody.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="width" value="1940" />
     <option name="height" value="1100" />
@@ -122,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,14 +204,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548036560512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548634381431" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/GreenMachineCoordinateGui" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -193,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdventureGame">
+  <component name="RunManager" selected="Application.Sets">
     <configuration name="AdventureGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Collections.Maps.AdventureGame" />
       <module name="JavaClass" />
@@ -220,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Arrays_and_Java_Built_in_Lists.LinkedLists.Demo" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Collections.Main" />
       <module name="JavaClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Arrays_and_Java_Built_in_Lists.LinkedLists.*" />
+          <option name="PATTERN" value="com.company.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,12 +271,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Collections.Main" />
+    <configuration name="Sets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Collections.SetsAndHashSets.Sets" />
       <module name="JavaClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Collections.*" />
+          <option name="PATTERN" value="com.company.Collections.SetsAndHashSets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,19 +298,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Challenge" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.map" />
       <item itemvalue="Application.AdventureGame" />
+      <item itemvalue="Application.Sets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sets" />
         <item itemvalue="Application.AdventureGame" />
         <item itemvalue="Application.map" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Challenge" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -314,18 +352,22 @@
       <workItem from="1547942159439" duration="6822000" />
       <workItem from="1548030845754" duration="777000" />
       <workItem from="1548032087261" duration="4495000" />
-      <workItem from="1548124640021" duration="663000" />
+      <workItem from="1548124640021" duration="3415000" />
+      <workItem from="1548563416481" duration="609000" />
+      <workItem from="1548627235557" duration="6637000" />
+      <workItem from="1548904806711" duration="37000" />
+      <workItem from="1549241962522" duration="182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46723000" />
+    <option name="totallyTimeSpent" value="56940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1940" height="1100" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2744681" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28784648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -334,13 +376,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49940547" weight="0.32603937" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49940547" weight="0.39195403" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.29931194" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.29885057" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50059456" side_tool="true" weight="0.28440368" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -440,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Arrays_and_Java_Built_in_Lists/LinkedLists/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/java/util/ListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -458,13 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Arrays_and_Java_Built_in_Lists/LinkedLists/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -538,10 +566,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Arrays_and_Java_Built_in_Lists/LinkedLists/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        <state relative-caret-position="253">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="309" column="27" selection-start-line="309" selection-start-column="27" selection-end-line="309" selection-end-column="27" />
+          <folding>
+            <element signature="e#10079#10080#0" expanded="true" />
+            <element signature="e#10117#10118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+          <folding>
+            <element signature="e#5877#5878#0" expanded="true" />
+            <element signature="e#5913#5914#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -572,10 +625,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Arrays_and_Java_Built_in_Lists/LinkedLists/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Collections/SetsAndHashSets/Sets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="2139">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21436">
+          <caret line="994" column="6" selection-start-line="994" selection-start-column="6" selection-end-line="994" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Collections/SetsAndHashSets/CelestialBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
