@@ -1,8 +1,9 @@
 package com.company.Collections.Maps;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-public class map {
+public class maps {
 
     public static void main(String[] args) {
         Map<String, String> languages = new HashMap<>();
@@ -18,10 +19,10 @@ public class map {
         System.out.println(languages.put("Python", "an interpreted, object-oriented, high level program with dynamic semantics"));
         System.out.println(languages.put("Algol", "an algorithmic language"));
         languages.put("Objective-C", " a general purpose, object-oriented language, used in developing IOS applications");
-        // now each language/references have been stored, a key value and value pair into the map object
+        // now each language/references have been stored, a key value and value pair into the maps object
 
         if (languages.containsKey("Java")) {
-            System.out.println("Java is already in the map");
+            System.out.println("Java is already in the maps");
         } else {
             languages.put("Java", "updated to level 11");
         }

@@ -11,7 +11,7 @@ public class Location {
     public Location(int locationID, String description, Map<String, Integer> exits) {
         this.locationID = locationID;
         this.description = description;
-        if (exits != null) { // checking to see if map is not null
+        if (exits != null) { // checking to see if maps is not null
             this.exits = new HashMap<>(exits); // making the class immutable
         } else
             this.exits = new HashMap<>();
