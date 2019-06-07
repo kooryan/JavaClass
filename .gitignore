@@ -106,13 +106,3 @@ fabric.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-
-.gradle/
-gradle/wrapper/gradle-wrapper.properties
-gradlew
-gradlew.bat
-settings.gradle
-build/tmp/
-src/com/company/LambdaExpressions/Lambdas.java
-build/distributions/JavaClass-1.0-SNAPSHOT.tar
-build/scripts/
