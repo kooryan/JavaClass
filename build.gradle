@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'idea'
+    id "org.openjfx.javafxplugin" version "0.0.7"
+}
+
+mainClassName = 'org.openjfx.Main'
+
+javafx {
+    modules = ['javafx.controls', 'javafx.fxml']
+    version = "11.0.1"
+}
+
+repositories {
+    mavenCentral()
+}
+
+wrapper {
+    gradleVersion = '5.0'
+}
+
+version '1.0-SNAPSHOT'
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
