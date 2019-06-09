@@ -1,5 +1,6 @@
 package com.company.LambdaExpressions;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -36,11 +37,30 @@ public class Lambdas {
 // 3 Parts: Argument List (the two parameters employee1, employee2), Arrow Token, Body (the code that we're processing.
         // OR
 
+        // Collections.sort(employees, (Employee employee1, Employee employee2) ->
+        //        employee1.getName().compareTo(employee2.getName()));
+
         Collections.sort(employees, Comparator.comparing(Employee::getName));
 
         for (Employee employee : employees) {
             System.out.println(employee.getName());
         }
+
+//        String sillyString = doStringStuff(new UpperConcat() {
+//            @Override
+//            public String upperAndConcat(String s1, String s2) {
+//                return s1.toUpperCase() + s2.toUpperCase();
+//            }
+//        },
+//                employees.get(0).getName(), employees.get(1).getName());
+//        System.out.println(sillyString);
+        UpperConcat uc = (String s1, String s2) -> s1.toUpperCase() + s2.toUpperCase();
+        String sillyString = doStringStuff(uc, employees.get(0).getName(), employees.get(1).getName());
+        System.out.println(sillyString);
+    }
+
+    public final static String doStringStuff(UpperConcat uc, String s1, String s2) {
+        return uc.upperAndConcat(s1, s2);
     }
 }
 
@@ -68,4 +88,8 @@ class Employee {
     public void setAge(int age) {
         this.age = age;
     }
+}
+
+interface UpperConcat {
+    public String upperAndConcat(String s1, String s2);
 }

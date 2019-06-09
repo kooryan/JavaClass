@@ -5,10 +5,12 @@ plugins {
     id "org.openjfx.javafxplugin" version "0.0.7"
 }
 
+apply plugin: 'idea'
+
 mainClassName = 'org.openjfx.Main'
 
 javafx {
-    modules = ['javafx.controls', 'javafx.fxml']
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.graphics']
     version = "11.0.1"
 }
 
