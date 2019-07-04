@@ -1,4 +1,4 @@
-package com.company.Collections.SetsAndHashSets.SetsChallenge;
+package company.Collections.SetsAndHashSets.SetsChallenge;
 
 public class SetChallenge {
 

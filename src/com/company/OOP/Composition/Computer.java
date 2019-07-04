@@ -1,4 +1,4 @@
-package com.company.OOP.Composition;
+package company.OOP.Composition;
 
 public class Computer {
 

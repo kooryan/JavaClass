@@ -1,4 +1,4 @@
-package com.company.OOP.Inheritance;
+package company.OOP.Inheritance;
 
 public class Car extends vehicle {
 

@@ -1,4 +1,4 @@
-package com.company.Collections.SetsAndHashSets.Variants;
+package company.Collections.SetsAndHashSets.Variants;
 
 public class StockItem implements Comparable<StockItem> {
     private final String name;

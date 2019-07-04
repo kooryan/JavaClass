@@ -1,7 +1,7 @@
-package com.company.Collections.SetsAndHashSets;
+package company.Collections.SetsAndHashSets;
 
-import com.company.Collections.SetsAndHashSets.SetsChallenge.Moon;
-import com.company.Collections.SetsAndHashSets.SetsChallenge.Planet;
+import company.Collections.SetsAndHashSets.SetsChallenge.Moon;
+import company.Collections.SetsAndHashSets.SetsChallenge.Planet;
 
 import java.util.HashMap;
 import java.util.HashSet;

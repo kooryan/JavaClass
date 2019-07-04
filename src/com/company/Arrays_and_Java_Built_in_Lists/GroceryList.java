@@ -1,4 +1,4 @@
-package com.company.Arrays_and_Java_Built_in_Lists;
+package company.Arrays_and_Java_Built_in_Lists;
 
 import java.util.ArrayList;
 

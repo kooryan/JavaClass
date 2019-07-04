@@ -1,4 +1,4 @@
-package com.company.OOP.Polymorphism;
+package company.OOP.Polymorphism;
 
 class Car {
     private boolean engines;

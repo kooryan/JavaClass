@@ -1,6 +1,6 @@
-package com.company.Collections.SetsAndHashSets;
+package company.Collections.SetsAndHashSets;
 
-public class Coton extends Dog{
+public class Coton extends Dog {
 
     public Coton(String name) {
         super(name);

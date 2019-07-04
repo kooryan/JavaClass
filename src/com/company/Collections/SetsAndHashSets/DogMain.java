@@ -1,4 +1,4 @@
-package com.company.Collections.SetsAndHashSets;
+package company.Collections.SetsAndHashSets;
 
 public class DogMain {
 

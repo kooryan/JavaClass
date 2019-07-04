@@ -1,7 +1,8 @@
-package com.company.Arrays_and_Java_Built_in_Lists;
+package company.Arrays_and_Java_Built_in_Lists;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
 
 public class ArrayLists {
     private static Scanner scanner = new Scanner(System.in);

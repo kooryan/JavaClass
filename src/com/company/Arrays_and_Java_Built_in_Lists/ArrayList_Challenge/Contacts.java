@@ -1,6 +1,4 @@
-package com.company.Arrays_and_Java_Built_in_Lists.ArrayList_Challenge;
-
-import java.util.ArrayList;
+package company.Arrays_and_Java_Built_in_Lists.ArrayList_Challenge;
 
 public class Contacts {
     private String name;

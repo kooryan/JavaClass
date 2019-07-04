@@ -1,4 +1,4 @@
-package com.company.Java_Generics;
+package company.Java_Generics;
 
 public class Player {
     private String name;

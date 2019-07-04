@@ -1,4 +1,4 @@
-package com.company.Arrays_and_Java_Built_in_Lists.LinkedLists.LinkedLists_Challenge;
+package company.Arrays_and_Java_Built_in_Lists.LinkedLists.LinkedLists_Challenge;
 
 public class Song {
     private String title;

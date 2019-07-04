@@ -1,6 +1,9 @@
-package com.company.Arrays_and_Java_Built_in_Lists.LinkedLists;
+package company.Arrays_and_Java_Built_in_Lists.LinkedLists;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.ListIterator;
+import java.util.Scanner;
 
 public class Demo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.company.OOP.Encapsulation;
+package company.OOP.Encapsulation;
 
 public class Printer {
 

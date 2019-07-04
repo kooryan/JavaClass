@@ -1,4 +1,4 @@
-package com.company.Arrays_and_Java_Built_in_Lists.LinkedLists;
+package company.Arrays_and_Java_Built_in_Lists.LinkedLists;
 
 public class Customer {
     private String name;

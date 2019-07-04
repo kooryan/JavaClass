@@ -5,6 +5,14 @@ plugins {
     id "org.openjfx.javafxplugin" version "0.0.7"
 }
 
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/com']
+        }
+    }
+}
+
 apply plugin: 'idea'
 
 mainClassName = 'org.openjfx.Main'

@@ -1,6 +1,6 @@
-package com.company.Collections.SetsAndHashSets.SetsChallenge;
+package company.Collections.SetsAndHashSets.SetsChallenge;
 
-import com.company.Collections.SetsAndHashSets.CelestialBody;
+import company.Collections.SetsAndHashSets.CelestialBody;
 
 public class Moon extends CelestialBody {
 

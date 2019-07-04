@@ -1,6 +1,8 @@
-package com.company.Collections.SetsAndHashSets.Variants;
+package company.Collections.SetsAndHashSets.Variants;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class StockList {
     private final Map<String, StockItem> list;

@@ -1,4 +1,4 @@
-package com.company.Collections.SetsAndHashSets.SymmetricAndAsymmetric;
+package company.Collections.SetsAndHashSets.SymmetricAndAsymmetric;
 
 import java.util.Arrays;
 import java.util.HashSet;

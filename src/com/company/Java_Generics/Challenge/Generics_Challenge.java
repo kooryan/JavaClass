@@ -1,11 +1,8 @@
-package com.company.Java_Generics.Challenge;
+package company.Java_Generics.Challenge;
 
-import com.company.Java_Generics.Baseball_Player;
-import com.company.Java_Generics.Football_Player;
-import com.company.Java_Generics.Team;
-
-import java.util.ArrayList;
-import java.util.Collections;
+import company.Java_Generics.Baseball_Player;
+import company.Java_Generics.Football_Player;
+import company.Java_Generics.Team;
 
 public class Generics_Challenge {
 

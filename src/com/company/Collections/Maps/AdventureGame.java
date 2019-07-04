@@ -1,4 +1,4 @@
-package com.company.Collections.Maps;
+package company.Collections.Maps;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,8 @@
-package com.company.Collections.SetsAndHashSets.Variants;
+package company.Collections.SetsAndHashSets.Variants;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class Basket {
     private final String name;

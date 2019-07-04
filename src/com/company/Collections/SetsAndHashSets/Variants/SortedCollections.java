@@ -1,4 +1,4 @@
-package com.company.Collections.SetsAndHashSets.Variants;
+package company.Collections.SetsAndHashSets.Variants;
 
 import java.util.Map;
 

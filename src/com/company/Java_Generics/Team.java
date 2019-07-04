@@ -1,4 +1,4 @@
-package com.company.Java_Generics;
+package company.Java_Generics;
 
 import java.util.ArrayList;
 

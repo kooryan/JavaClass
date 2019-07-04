@@ -1,4 +1,4 @@
-package com.company.Basic_IO;
+package company.Basic_IO;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

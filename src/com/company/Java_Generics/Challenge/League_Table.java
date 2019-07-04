@@ -1,7 +1,6 @@
-package com.company.Java_Generics.Challenge;
+package company.Java_Generics.Challenge;
 
-import com.company.Java_Generics.Player;
-import com.company.Java_Generics.Team;
+import company.Java_Generics.Team;
 
 import java.util.ArrayList;
 import java.util.Collections;
