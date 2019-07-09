@@ -3,6 +3,8 @@ package company.LambdaExpressions.Streams;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
@@ -44,8 +46,65 @@ public class Main {
 //
 //        gNumbers.sort((String s1, String s2) -> s1.compareTo(s2));
 //        gNumbers.forEach((String s) -> System.out.println(s));
+        Employee john = new Employee("John doe", 31);
+        Employee ryan = new Employee("Ryan Koo", 45);
+        Employee sno = new Employee("Sno Do", 23);
+        Employee first = new Employee("Mark Gerg", 15);
+        Employee ian = new Employee("Ian Mac", 40);
+        Employee andrew = new Employee("Andrew Boe", 26);
+        Employee dumb = new Employee("Bobby Banks", 17);
 
+        Department hr = new Department("Human Resources");
+        hr.addEmployee(john);
+        hr.addEmployee(ryan);
+        hr.addEmployee(sno);
 
+        Department accounting = new Department("Accounting");
+        accounting.addEmployee(first);
+        accounting.addEmployee(ian);
+        accounting.addEmployee(andrew);
+        accounting.addEmployee(dumb);
 
+        List<Department> departments = new ArrayList<>();
+        departments.add(hr);
+        departments.add(accounting);
+
+        departments.stream()
+                .flatMap(department -> department.getEmployeeList().stream()) // flat map method wants a function that returns a stream and each department in the source stream becomes part of the argument
+                .forEach(System.out::println);
+
+        System.out.println("----------------------------");
+  /*      List<String> sortedGNumbers = bingoNumbers
+                .stream()
+                .map(String::toUpperCase)
+                .filter(s -> s.startsWith("G"))
+                .sorted()
+                .collect(Collectors.toList()); */
+
+        List<String> sortedGNumbers = bingoNumbers
+                .stream()
+                .map(String::toUpperCase)
+                .filter(s -> s.startsWith("G"))
+                .sorted()
+                .collect(ArrayList::new, ArrayList::add, ArrayList::addAll); // 1. Supplier 2. Accumulator 3. Combiner
+
+        for (String s : sortedGNumbers) {
+            System.out.println(s);
+        }
+
+         Map<Integer, List<Employee>> groupedByAge = departments.stream()
+                 .flatMap(department -> department.getEmployeeList().stream())
+                 .collect(Collectors.groupingBy(Employee::getAge));
+
+        departments.stream()
+                .flatMap(department -> department.getEmployeeList().stream())
+                .reduce((e1, e2) -> e1.getAge() < e2.getAge() ? e1 : e2)
+                .ifPresent(System.out::println); // compares the ages of two employees and finds the younger employee
+
+        Stream.of("ABC", "AC", "BAA", "CCCC", "XY", "ST")
+                .filter(s -> {
+                    System.out.println(s); // nothing is printed because we have no terminal operation
+                    return s.length() == 3;
+                }).count(); // since now we have a terminal operation, intermediate steps will now be processed
     }
 }
